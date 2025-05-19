@@ -22,7 +22,7 @@ resource "aws_lambda_function" "stop_ec2" {
 }
 resource "aws_cloudwatch_event_rule" "start_schedule" {
   name                = "StartEC2Schedule"
-  schedule_expression = "cron(0 8 * * ? *)"
+  schedule_expression = "cron(0 12 * * ? *)"
 }
 
 resource "aws_cloudwatch_event_target" "start_target" {
@@ -41,7 +41,7 @@ resource "aws_lambda_permission" "allow_eventbridge_start" {
 
 resource "aws_cloudwatch_event_rule" "stop_schedule" {
   name                = "StopEC2Schedule"
-  schedule_expression = "cron(0 17 * * ? *)"
+  schedule_expression = "cron(30 12 * * ? *)"
 }
 
 resource "aws_cloudwatch_event_target" "stop_target" {
