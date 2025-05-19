@@ -23,8 +23,8 @@ It’s designed to reduce AWS costs by stopping instances during off-hours and r
 
 ## 📦 Features
 
-✅ Automatically starts EC2 instances at **9:00 AM WAT** (8:00 AM UTC)  
-✅ Automatically stops EC2 instances at **6:00 PM WAT** (5:00 PM UTC)  
+✅ Automatically starts EC2 instances at **12:00PM WAT** 
+✅ Automatically stops EC2 instances at **12:30 PM WAT**  
 ✅ Filters EC2 instances based on tag: `AutoStartStop = true`  
 ✅ Serverless and cost-saving  
 ✅ Fully repeatable via Terraform
