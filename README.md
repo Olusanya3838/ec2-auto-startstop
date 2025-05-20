@@ -33,3 +33,11 @@ It’s designed to reduce AWS costs by stopping instances during off-hours and r
 
 ## 📂 Folder Structure
 
+![logs](https://github.com/user-attachments/assets/3f4cb400-ffcf-451d-a07a-ea788fcf23fd)
+![terrrafom](https://github.com/user-attachments/assets/eb00da57-e2b7-437b-a2d9-00984b37951b)
+![terraform4](https://github.com/user-attachments/assets/9d8e0bc2-a24c-4b42-899a-74604208cc4c)
+![ec21](https://github.com/user-attachments/assets/b18effb5-3d1a-4b51-807d-2bd843094a06)
+![ec2](https://github.com/user-attachments/assets/fcff9eca-5f67-4511-be88-95eda2cd48d3)
+![log2](https://github.com/user-attachments/assets/8604dcaf-a578-4209-a597-a7fa5be19936)
+
+
